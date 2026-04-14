@@ -11,33 +11,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-            <a href="">Mon portofolio</a>
-        </div>    
+   <header>
+        <div class="logo">Mon Portfolio</div>
         <nav>
             <ul>
-                <li><a href="index.html" >Accueil</a></li>
-                <li><a href="projet.html">Projet</a></li>
-                <li><a href="passion.html"class="active">Passion</a></li>
-                <li><a href="divertissement.html">divertissement</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html">Projets</a></li>
+                <li><a href="passion.html" class="active">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <footer>
-        <div>
-            <p>© 2026 Charis. Tous droit réservés</p>
-        </div>
-        <nav>
-            <div>
-                <ul>
-                    <li><a href=""><i class="fa-brands fa-github"></i></li>
-                    <li><a href=""><i class="fa-brands fa-linkedin"></i></li>
-                    <li><a href=""><i class="fa-brands fa-twitter"></i></li>
-                </ul>   
+
+    <main class="section-container">
+        <h1 class="section-title">Mes Passions</h1>
+        <div class="section-underline"></div>
+
+        <div class="grid-passions">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=500" alt="Photographie" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Photographie</h3>
+                    <p class="card-description">Capturer des moments de vie et des paysages urbains. J'aime jouer avec la lumière et les perspectives.</p>
+                    <div class="card-footer"><a href="#" class="btn-more">En savoir plus →</a></div>
+                </div>
             </div>
-        </nav>
+
+            <div class="card">
+                <img src="image/programmation.jpg" alt="Voyages" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">programmation</h3>
+                    <p class="card-description">Découvrir de nouveaux langages de programmation.</p>
+                    <div class="card-footer"><a href="#" class="btn-more">En savoir plus →</a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="image/Réseaux.jpg" alt="Technologie" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">réseaux</h3>
+                    <p class="card-description">Veille constante sur les nouvelles technologies de  la starlink .</p>
+                    <div class="card-footer"><a href="#" class="btn-more">En savoir plus →</a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="image/cybersecurité.jpg" alt="Musique" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">cybersécurité</h3>
+                    <p class="card-description">Passionné par la cybersecurité afin de se defendre contre n'importe quelle attaque.</p>
+                    <div class="card-footer"><a href="#" class="btn-more">En savoir plus →</a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Charis. Tous droits réservés.</p>
+        <div class="footer-social">
+            <a href=""><i class="fa-brands fa-github"></i>
+            <a href=""><i class="fa-brands fa-linkedin"></i>
+            <a href=""><i class="fa-brands fa-twitter"></i>
+        </div>
     </footer>
 </body>
 </html>

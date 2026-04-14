@@ -370,3 +370,404 @@ footer a:hover{
         flex-direction: column;
     }
 }
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+        color: #6c5ce7;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    nav a.active {
+        color: #6c5ce7;
+        border-bottom: 2px solid #6c5ce7;
+    }
+
+    .projects-section {
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    .section-title {
+        color: #6c5ce7;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    .project-card {
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+
+    .project-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-title {
+        color: #6c5ce7;
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .project-description {
+        color: #666;
+        margin-bottom: 15px;
+    }
+
+    .project-tags {
+        margin-bottom: 15px;
+    }
+
+    .project-tag {
+        background-color: #eee;
+        color: #6c5ce7;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .project-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .project-link {
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    footer {
+        background-color: #6c5ce7;
+        color: white;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .footer-copyright {
+        margin-bottom: 20px;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-social a {
+        color: white;
+        font-size: 24px;
+    }
+
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            color: #6c5ce7;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        nav a.active {
+            color: #6c5ce7;
+            border-bottom: 2px solid #6c5ce7;
+        }
+
+        .section-container {
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .section-title {
+            color: #6c5ce7;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .section-underline {
+            width: 50px;
+            height: 3px;
+            background-color: #6c5ce7;
+            margin: 0 auto 50px;
+        }
+
+        /* Grille adaptée pour 4 blocs */
+        .grid-passions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-bottom: 4px solid #6c5ce7;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            color: #6c5ce7;
+            font-size: 20px;
+            margin: 0 0 10px 0;
+        }
+
+        .card-description {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .btn-more {
+            text-decoration: none;
+            color: #6c5ce7;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #6c5ce7;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer-social {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            font-size: 20px;
+        }
+        
+        .footer-social a { color: white; text-decoration: none; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            color: #6c5ce7;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        nav a.active {
+            color: #6c5ce7;
+            border-bottom: 2px solid #6c5ce7;
+        }
+
+        .section-container {
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .section-title {
+            color: #6c5ce7;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .section-underline {
+            width: 50px;
+            height: 3px;
+            background-color: #6c5ce7;
+            margin: 0 auto 50px;
+        }
+
+        .grid-divertissement {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-bottom: 4px solid #6c5ce7;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            color: #6c5ce7;
+            font-size: 20px;
+            margin: 0 0 10px 0;
+        }
+
+        .card-description {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .status-tag {
+            font-size: 12px;
+            background: #f0edff;
+            color: #6c5ce7;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #6c5ce7;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer-social {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            font-size: 20px;
+        }
+        
+        .footer-social a { color: white; text-decoration: none; }
+
+     

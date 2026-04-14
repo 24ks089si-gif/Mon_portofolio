@@ -12,32 +12,75 @@
 </head>
 <body>
     <header>
-        <div>
-            <a href="">Mon portofolio</a>
-        </div>    
+        <div class="logo">Mon Portfolio</div>
         <nav>
             <ul>
-                <li><a href="index.html" >Accueil</a></li>
-                <li><a href="projet.html">Projet</a></li>
-                <li><a href="passion.html">Passion</a></li>
-                <li><a href="divertissement.html"class="active">divertissement</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html">Projets</a></li>
+                <li><a href="passion.html">Passions</a></li>
+                <li><a href="" class="active">Divertissement</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <footer>
-        <div>
-            <p>© 2026 Charis. Tous droit réservés</p>
-        </div>
-        <nav>
-            <div>
-                <ul>
-                    <li><a href=""><i class="fa-brands fa-github"></i></li>
-                    <li><a href=""><i class="fa-brands fa-linkedin"></i></li>
-                    <li><a href=""><i class="fa-brands fa-twitter"></i></li>
-                </ul>   
+    <main class="section-container">
+        <h1 class="section-title">Mes Divertissements</h1>
+        <div class="section-underline"></div>
+
+        <div class="grid-divertissement">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=500" alt="Basketball" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Basketball</h3>
+                    <p class="card-description">Pratique régulière en club. Le basket m'apprend l'esprit d'équipe et la persévérance sous le panier.</p>
+                    <div class="card-footer">
+                        <span class="status-tag">Compétition</span>
+                    </div>
+                </div>
             </div>
-        </nav>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=500" alt="Football" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Football</h3>
+                    <p class="card-description">Passionné par le jeu collectif et l'adrénaline des matchs le weekend. Un excellent moyen de se vider la tête.</p>
+                    <div class="card-footer">
+                        <span class="status-tag">Loisir</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1484156818044-c040038b0719?q=80&w=500" alt="Course à vélo" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Course à vélo</h3>
+                    <p class="card-description">Exploration de nouveaux sentiers et dépassement de soi lors de longues sorties en pleine nature.</p>
+                    <div class="card-footer">
+                        <span class="status-tag">Endurance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=500" alt="Cuisine" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Cuisine</h3>
+                    <p class="card-description">Expérimenter de nouvelles recettes et partager de bons plats. Pour moi, cuisiner est un art créatif.</p>
+                    <div class="card-footer">
+                        <span class="status-tag">Gastronomie</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Charis. Tous droits réservés.</p>
+        <div class="footer-social">
+            <a href=""><i class="fa-brands fa-github"></i>
+            <a href=""><i class="fa-brands fa-linkedin"></i>
+            <a href=""><i class="fa-brands fa-twitter"></i>
+        </div>
     </footer>
 </body>
 </html>
